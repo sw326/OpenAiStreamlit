@@ -1,12 +1,12 @@
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import openai
 from audiorecorder import audiorecorder
 from datetime import datetime
 import base64
 
-load_dotenv()
+#load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
